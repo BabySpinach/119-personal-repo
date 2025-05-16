@@ -1,0 +1,401 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1746485452994559, "dur":20760, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1746485453015327, "dur":122, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1746485453015490, "dur":204, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1746485453015909, "dur":60, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Jatin/Downloads/Burn in Hell_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":0, "ts":1746485453015972, "dur":80, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles C:/Users/Jatin/Downloads/Burn in Hell_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":0, "ts":1746485453015706, "dur":2460, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1746485453018167, "dur":3473147, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1746485456491315, "dur":204, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1746485456491622, "dur":1886, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1746485453015895, "dur":2274, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1746485453018171, "dur":3750, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1746485453059299, "dur":599, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":1, "ts":1746485453059904, "dur":80, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1746485453059990, "dur":7708, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1746485453067699, "dur":71, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1746485453059902, "dur":8212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1746485453068656, "dur":124469, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1746485453198212, "dur":75, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1746485453198211, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jatin/Downloads/Burn in Hell_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1746485453198312, "dur":22882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1746485453221198, "dur":15273, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1746485453236514, "dur":2205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":1, "ts":1746485453238754, "dur":172, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1746485453238937, "dur":3704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1746485453242688, "dur":340, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1746485453243059, "dur":3252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1746485453246348, "dur":134, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1746485453246493, "dur":6209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1746485453252742, "dur":3037, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1746485453255798, "dur":21527, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1746485453277380, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1746485453277528, "dur":6260, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1746485453283831, "dur":71, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1746485453283914, "dur":3559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1746485453287536, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1746485453287658, "dur":4059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1746485453291801, "dur":13196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1746485453305054, "dur":383, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1746485453305451, "dur":6620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1746485453312167, "dur":12651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1746485453325049, "dur":317, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1746485453325509, "dur":12140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1746485453337710, "dur":6339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":1, "ts":1746485453344097, "dur":4589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":1, "ts":1746485453348780, "dur":2345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1746485453351707, "dur":4809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1746485453356750, "dur":3134626, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1746485453015950, "dur":2231, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1746485453018183, "dur":838, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1746485453019021, "dur":2921, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1746485453021944, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jatin/Downloads/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1746485453022047, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1746485453023267, "dur":3854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1746485453027160, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jatin/Downloads/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1746485453027241, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1746485453027537, "dur":822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1746485453028435, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jatin/Downloads/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1746485453028558, "dur":32823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1746485453061439, "dur":999, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jatin/Downloads/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1746485453063958, "dur":1123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1746485453065235, "dur":1846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell.exe" }}
+,{ "pid":12345, "tid":2, "ts":1746485453067139, "dur":37538, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1746485453104986, "dur":116116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1746485453221140, "dur":15332, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1746485453236496, "dur":4726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1746485453241275, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1746485453241367, "dur":3787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1746485453262036, "dur":5328, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1746485453245266, "dur":22113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1746485453267544, "dur":20275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1746485453287934, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1746485453288042, "dur":65804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1746485453405157, "dur":128, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1746485453353915, "dur":51413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1746485453405419, "dur":3085864, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1746485453015914, "dur":2259, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1746485453018176, "dur":880, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1746485453019056, "dur":2881, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1746485453021939, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jatin/Downloads/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1746485453023255, "dur":3800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1746485453027095, "dur":92, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\web.config" }}
+,{ "pid":12345, "tid":3, "ts":1746485453027093, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jatin/Downloads/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1746485453027511, "dur":771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1746485453028315, "dur":66, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.0\\machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1746485453028314, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jatin/Downloads/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1746485453028442, "dur":36055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1746485453064545, "dur":90, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1746485453064543, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jatin/Downloads/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1746485453064726, "dur":172162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1746485453236964, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1746485453237082, "dur":4101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1746485453241238, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1746485453246849, "dur":75, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1746485453241331, "dur":5602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1746485453246982, "dur":165, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1746485453247173, "dur":46396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1746485453293624, "dur":273, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1746485453293971, "dur":13963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1746485453307987, "dur":3687, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1746485453311701, "dur":8093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1746485453319898, "dur":2147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1746485453322082, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1746485453322192, "dur":2061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1746485453324328, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1746485453324419, "dur":10628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1746485453335105, "dur":296, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1746485453335414, "dur":20235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1746485453355709, "dur":49688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":3, "ts":1746485453405449, "dur":3085870, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1746485453015944, "dur":2233, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1746485453018179, "dur":837, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1746485453019017, "dur":2928, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1746485453021953, "dur":136, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":4, "ts":1746485453021947, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jatin/Downloads/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1746485453022090, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1746485453059662, "dur":872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1746485453060583, "dur":113, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\web.config" }}
+,{ "pid":12345, "tid":4, "ts":1746485453060581, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jatin/Downloads/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1746485453060930, "dur":1421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1746485453062386, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jatin/Downloads/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1746485453063186, "dur":660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1746485453063896, "dur":83, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\EmbedRuntime\\MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1746485453063895, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jatin/Downloads/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1746485453064326, "dur":1963, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1746485453066399, "dur":304, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1746485453104784, "dur":90314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1746485453195152, "dur":20203, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1746485453215378, "dur":23673, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1746485453239150, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1746485453239215, "dur":7589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":4, "ts":1746485453246930, "dur":25223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":4, "ts":1746485453272195, "dur":5000, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1746485453277233, "dur":14549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1746485453291823, "dur":2510, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1746485453294346, "dur":12730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1746485453307130, "dur":205, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1746485453316584, "dur":50, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1746485453307346, "dur":9296, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1746485453316703, "dur":786, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1746485453317499, "dur":17424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1746485453334987, "dur":413, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1746485453335411, "dur":18023, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1746485453353491, "dur":4206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1746485453357743, "dur":3133579, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1746485453016037, "dur":2148, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1746485453018186, "dur":1110, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1746485453019296, "dur":2639, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1746485453021943, "dur":122, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1746485453021936, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jatin/Downloads/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1746485453022067, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1746485453074625, "dur":40551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1746485453115225, "dur":30212, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1746485453145480, "dur":91567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1746485453237124, "dur":4043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1746485453241216, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1746485453241315, "dur":4092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1746485453245457, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1746485453245551, "dur":6325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/Unity.Tutorials.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1746485453251922, "dur":316, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1746485453252250, "dur":22950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/Unity.RenderPipelines.Universal.Config.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1746485453275268, "dur":1928, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1746485453277232, "dur":29144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1746485453306430, "dur":165, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1746485453306607, "dur":6167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1746485453312874, "dur":7230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1746485453320214, "dur":2103, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1746485453322360, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1746485453322465, "dur":3042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1746485453325561, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1746485453325652, "dur":1687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1746485453327379, "dur":395, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1746485453327786, "dur":16051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1746485453343903, "dur":22774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":5, "ts":1746485453366722, "dur":3124588, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1746485453016066, "dur":2124, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1746485453018192, "dur":1098, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1746485453019291, "dur":2695, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1746485453021986, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jatin/Downloads/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1746485453068160, "dur":882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1746485453069080, "dur":35699, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1746485453105076, "dur":131681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1746485453236953, "dur":2875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1746485453243433, "dur":1296, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1746485453239958, "dur":4781, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1746485453244864, "dur":169, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1746485453245048, "dur":6112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":6, "ts":1746485453251210, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1746485453251283, "dur":16976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1746485453268331, "dur":869, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1746485453269245, "dur":11415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1746485453280711, "dur":1192, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1746485453281937, "dur":5076, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1746485453287094, "dur":2290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1746485453289455, "dur":311, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1746485453289777, "dur":15932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1746485453306322, "dur":10046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1746485453316475, "dur":9517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1746485453326032, "dur":175, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1746485453326218, "dur":8389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1746485453334740, "dur":15668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1746485453350500, "dur":1342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1746485453351930, "dur":5571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1746485453357548, "dur":3133822, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1746485453016088, "dur":2106, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1746485453018196, "dur":1148, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1746485453019344, "dur":2586, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1746485453022139, "dur":91, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Jatin\\Documents\\GitHub\\119-personal-repo\\03c+Final Project\\Burn in Hell\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1746485453022231, "dur":63, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Jatin\\Documents\\GitHub\\119-personal-repo\\03c+Final Project\\Burn in Hell\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1746485453022295, "dur":311, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Jatin\\Documents\\GitHub\\119-personal-repo\\03c+Final Project\\Burn in Hell\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1746485453022607, "dur":70, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Jatin\\Documents\\GitHub\\119-personal-repo\\03c+Final Project\\Burn in Hell\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Config.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1746485453022678, "dur":296, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Jatin\\Documents\\GitHub\\119-personal-repo\\03c+Final Project\\Burn in Hell\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1746485453022976, "dur":73, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Jatin\\Documents\\GitHub\\119-personal-repo\\03c+Final Project\\Burn in Hell\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":7, "ts":1746485453023051, "dur":269, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Jatin\\Documents\\GitHub\\119-personal-repo\\03c+Final Project\\Burn in Hell\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Collections.dll" }}
+,{ "pid":12345, "tid":7, "ts":1746485453023321, "dur":136, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Jatin\\Documents\\GitHub\\119-personal-repo\\03c+Final Project\\Burn in Hell\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1746485453023459, "dur":67, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Jatin\\Documents\\GitHub\\119-personal-repo\\03c+Final Project\\Burn in Hell\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":7, "ts":1746485453023527, "dur":199, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Jatin\\Documents\\GitHub\\119-personal-repo\\03c+Final Project\\Burn in Hell\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1746485453023771, "dur":388, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Jatin\\Documents\\GitHub\\119-personal-repo\\03c+Final Project\\Burn in Hell\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1746485453024160, "dur":208, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Jatin\\Documents\\GitHub\\119-personal-repo\\03c+Final Project\\Burn in Hell\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.dll" }}
+,{ "pid":12345, "tid":7, "ts":1746485453024369, "dur":71, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Jatin\\Documents\\GitHub\\119-personal-repo\\03c+Final Project\\Burn in Hell\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Tutorials.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1746485453024441, "dur":340, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Jatin\\Documents\\GitHub\\119-personal-repo\\03c+Final Project\\Burn in Hell\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1746485453024782, "dur":73, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Jatin\\Documents\\GitHub\\119-personal-repo\\03c+Final Project\\Burn in Hell\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1746485453024856, "dur":52, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Jatin\\Documents\\GitHub\\119-personal-repo\\03c+Final Project\\Burn in Hell\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":7, "ts":1746485453024908, "dur":155, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Jatin\\Documents\\GitHub\\119-personal-repo\\03c+Final Project\\Burn in Hell\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1746485453025106, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Jatin\\Documents\\GitHub\\119-personal-repo\\03c+Final Project\\Burn in Hell\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1746485453025200, "dur":86, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Jatin\\Documents\\GitHub\\119-personal-repo\\03c+Final Project\\Burn in Hell\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1746485453025287, "dur":377, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Jatin\\Documents\\GitHub\\119-personal-repo\\03c+Final Project\\Burn in Hell\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1746485453025665, "dur":58, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Jatin\\Documents\\GitHub\\119-personal-repo\\03c+Final Project\\Burn in Hell\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":7, "ts":1746485453025723, "dur":56, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Jatin\\Documents\\GitHub\\119-personal-repo\\03c+Final Project\\Burn in Hell\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1746485453025779, "dur":186, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Jatin\\Documents\\GitHub\\119-personal-repo\\03c+Final Project\\Burn in Hell\\Library\\Bee\\PlayerScriptAssemblies\\Cinemachine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1746485453026074, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Users\\Jatin\\Documents\\GitHub\\119-personal-repo\\03c+Final Project\\Burn in Hell\\Library\\PackageCache\\com.unity.burst@1.8.17\\.Runtime\\bcl.exe" }}
+,{ "pid":12345, "tid":7, "ts":1746485453021932, "dur":4205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":7, "ts":1746485453028088, "dur":3458850, "ph":"X", "name": "GenerateNativePluginsForAssemblies",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":7, "ts":1746485456490390, "dur":858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":8, "ts":1746485453016111, "dur":2088, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1746485453018201, "dur":1099, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1746485453019301, "dur":2631, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1746485453021940, "dur":121, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1746485453021933, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jatin/Downloads/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1746485453023197, "dur":39127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1746485453062366, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jatin/Downloads/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1746485453063044, "dur":2666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1746485453065745, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jatin/Downloads/Burn in Hell_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1746485453065824, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1746485453066285, "dur":99310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":8, "ts":1746485453165631, "dur":28562, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1746485453194208, "dur":44133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1746485453238410, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1746485453244112, "dur":770, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1746485453238486, "dur":6411, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1746485453244955, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1746485453245042, "dur":2847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":8, "ts":1746485453247989, "dur":22264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/Unity.Collections.dll" }}
+,{ "pid":12345, "tid":8, "ts":1746485453270335, "dur":148, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1746485453270488, "dur":980, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1746485453271507, "dur":8009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1746485453279588, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1746485453279704, "dur":6414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1746485453286240, "dur":2668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1746485453288985, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1746485453305625, "dur":71, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1746485453289101, "dur":16602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1746485453306381, "dur":6729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1746485453313191, "dur":267, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1746485453313470, "dur":6627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1746485453320157, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1746485453320234, "dur":3224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1746485453323571, "dur":3231, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1746485453326900, "dur":29125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1746485453356074, "dur":3135237, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1746485453016132, "dur":2071, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1746485453018205, "dur":780, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1746485453018986, "dur":2963, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1746485453021950, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jatin/Downloads/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1746485453080950, "dur":108291, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1746485453189282, "dur":4932, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1746485453194229, "dur":43136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1746485453237434, "dur":164, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1746485453237608, "dur":3566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":9, "ts":1746485453241230, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1746485453241324, "dur":5972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":9, "ts":1746485453247391, "dur":189, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1746485453270371, "dur":166, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1746485453247591, "dur":22953, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":9, "ts":1746485453270648, "dur":142, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1746485453270792, "dur":11300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1746485453282196, "dur":4556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1746485453286815, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1746485453286963, "dur":2497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1746485453289509, "dur":206, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1746485453289751, "dur":24614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1746485453314417, "dur":1698, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1746485453316124, "dur":58, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1746485453316186, "dur":7235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1746485453323489, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1746485453323550, "dur":3244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1746485453326910, "dur":13616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1746485453353146, "dur":60, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1746485453340615, "dur":12602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1746485453353321, "dur":4313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/level1" }}
+,{ "pid":12345, "tid":9, "ts":1746485453357680, "dur":3133605, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1746485453016160, "dur":2046, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1746485453018208, "dur":611, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1746485453018819, "dur":3133, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1746485453021961, "dur":194, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1746485453021954, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jatin/Downloads/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1746485453080581, "dur":108448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1746485453189097, "dur":5324, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1746485453194434, "dur":44369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1746485453238853, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1746485453238935, "dur":3352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1746485453242337, "dur":689, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1746485453243058, "dur":2289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":10, "ts":1746485453245523, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1746485453245663, "dur":15850, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":10, "ts":1746485453261568, "dur":179, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1746485453261762, "dur":17263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1746485453279065, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1746485453279135, "dur":24010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1746485453303217, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1746485453303288, "dur":3628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1746485453307012, "dur":323, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1746485453307347, "dur":11729, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1746485453319127, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1746485453319244, "dur":17572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1746485453336857, "dur":95, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1746485453336856, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jatin/Downloads/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1746485453336994, "dur":604642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1746485453941671, "dur":2549668, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1746485453016179, "dur":2037, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1746485453018216, "dur":3711, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1746485453021941, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1746485453022066, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1746485453068650, "dur":77201, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/app.info" }}
+,{ "pid":12345, "tid":11, "ts":1746485453145859, "dur":48331, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1746485453194206, "dur":42677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":11, "ts":1746485453236917, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1746485453237019, "dur":3431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":11, "ts":1746485453240509, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1746485453243538, "dur":1312, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1746485453240573, "dur":4285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll" }}
+,{ "pid":12345, "tid":11, "ts":1746485453244937, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1746485453245037, "dur":3950, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":11, "ts":1746485453249040, "dur":2000, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1746485453251058, "dur":18384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":11, "ts":1746485453269500, "dur":225, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1746485453269737, "dur":9686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1746485453279464, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1746485453279536, "dur":12401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1746485453291978, "dur":1918, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1746485453293968, "dur":11251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1746485453305294, "dur":146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1746485453305452, "dur":2762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1746485453308266, "dur":3407, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1746485453311697, "dur":6986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1746485453318771, "dur":4685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1746485453323553, "dur":2480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1746485453326071, "dur":137, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1746485453326221, "dur":3736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1746485453329998, "dur":449, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1746485453330459, "dur":12433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1746485453342947, "dur":981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":11, "ts":1746485453343977, "dur":11285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1746485453355381, "dur":105410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":11, "ts":1746485453460860, "dur":3030495, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1746485453016205, "dur":2030, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1746485453018236, "dur":3735, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1746485453021973, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jatin/Downloads/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1746485453059127, "dur":768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1746485453059941, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jatin/Downloads/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1746485453060052, "dur":379, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1746485453060738, "dur":1049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1746485453061823, "dur":715, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.43f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\2.0\\machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1746485453061822, "dur":717, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Jatin/Downloads/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1746485453062540, "dur":495, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1746485453063065, "dur":3077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1746485453066184, "dur":559, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1746485453104800, "dur":116088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":12, "ts":1746485453220995, "dur":17259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":12, "ts":1746485453238401, "dur":2777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":12, "ts":1746485453244545, "dur":349, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1746485453241356, "dur":3552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":12, "ts":1746485453244967, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1746485453245044, "dur":2419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1746485453247872, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1746485453247992, "dur":22919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1746485453270955, "dur":177, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1746485453271142, "dur":13253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1746485453284452, "dur":291, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1746485453284749, "dur":331, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1746485453285082, "dur":3092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1746485453290158, "dur":1927, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1746485453292097, "dur":14694, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1746485453306935, "dur":9428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1746485453316669, "dur":808, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1746485453317491, "dur":27912, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1746485453345453, "dur":1005, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1746485453346477, "dur":114533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Jatin/Downloads/Burn in Hell_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":12, "ts":1746485453461050, "dur":3030255, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1746485456496451, "dur":1198, "ph":"X", "name": "ProfilerWriteOutput" }
+,
